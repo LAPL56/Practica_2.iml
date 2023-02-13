@@ -13,7 +13,7 @@ public class Circle
     public void Perimeter()
     {
         float result = pi*(2*radius);
-        System.out.println("Circle Perimeter: "+result+" cm");
+        System.out.println("\nCircle Perimeter: "+result+" cm");
     }
     //Método que devuelve el área del círculo
     public void Area()

@@ -15,7 +15,7 @@ public class Triangle
     public void Perimeter_int()
     {
         float tri_per = base_1+base_2+base_3;
-        System.out.println("Triangle Perimeter: "+tri_per+" cm");
+        System.out.println("\nTriangle Perimeter: "+tri_per+" cm");
 
     }
     //Método que devuelve el área del triángulo

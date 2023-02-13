@@ -20,7 +20,7 @@ public class Cube
     {
         float perimeter;
         perimeter = (height*4)+(base*4)+(width*4);
-        System.out.println("Cube Perimeter: "+perimeter+" cm");
+        System.out.println("\nCube Perimeter: "+perimeter+" cm");
     }
     //Método que devuelve el área
     public void Area()
