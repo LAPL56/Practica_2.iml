@@ -21,7 +21,7 @@ public class Triangle
     //Método que devuelve el área del triángulo
     public void Area()
     {
-        double height = 0, tri_are = 0;
+        float tri_are;
 
         tri_are=(base_1*height)/2;
 
