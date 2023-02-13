@@ -2,8 +2,9 @@ public class MainArtek {
     public static void main(String[] args)
     {
     //Clase Cuadrado
-        //Métodos no estáticos
+        //Constructor Square
         Square square = new Square(2.5f,7.13f);
+        //Métodos no estáticos
         square.Perimeter();
         square.Area();
         //Métodos estáticos
@@ -13,8 +14,9 @@ public class MainArtek {
         float are_flo_squ = Square.Area(7.8f,9.1f);
 
     //Clase Círculo
-        //Métodos no estáticos
+        //Constructor Circle
         Circle circle = new Circle(3f);
+        //Métodos no estáticos
         circle.Perimeter();
         circle.Area();
         //Métodos estáticos
@@ -22,8 +24,9 @@ public class MainArtek {
         float are_cir = Circle.Area(3f);
 
     //Clase Triángulo
-        //Métodos no estáticos
+        //Constructor Triangle
         Triangle triangle = new Triangle(2.5f,3.5f,1.5f,5.1f);
+        //Métodos no estáticos
         triangle.Area();
         triangle.Perimeter_int();
         //Métodas estáticos
