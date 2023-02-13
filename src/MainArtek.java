@@ -31,7 +31,7 @@ public class MainArtek {
         triangle.Area();
         //Métodas estáticos
         int per_int_tri = Triangle.Perimeter_int(1,2,3);
-        int are_int_tri = Triangle.Area_int(1,2);
+        int are_int_tri = Triangle.Area_int(3,4);
         float per_flo_tri = Triangle.Perimeter_flo(1.5f,2.3f,3.2f);
         float are_flo_tri = Triangle.Area_flo(1.5f,2.3f);
 
