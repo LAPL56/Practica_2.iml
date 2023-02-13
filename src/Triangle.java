@@ -15,8 +15,7 @@ public class Triangle
     public void Perimeter_int()
     {
         float tri_per = base_1+base_2+base_3;
-        System.out.println("Triangle Perimeter");
-        System.out.println("    P: " + tri_per + " cm");
+        System.out.println("Triangle Perimeter: "+tri_per+" cm");
 
     }
     //Método que devuelve el área del triángulo
@@ -26,8 +25,7 @@ public class Triangle
 
         tri_are=(base_1*height)/2;
 
-        System.out.println("Triangle Area");
-        System.out.println("    A: " + tri_are + " cm^2");
+        System.out.println("Triangle Area: "+tri_are+" cm^2");
 
     }
 
@@ -36,8 +34,7 @@ public class Triangle
     public static int Perimeter_int(int base_1, int base_2, int base_3)
     {
         int result = (base_1+base_2+base_3);
-        System.out.println("Triangle Perimeter (int)");
-        System.out.println("    P: " + result + " cm");
+        System.out.println("Triangle Perimeter (int): "+result+" cm");
         return result;
     }
     //Método estático con parámetros de tipo enteros
@@ -48,8 +45,7 @@ public class Triangle
 
         tri_are_int=(base_1*height)/2;
         
-        System.out.println("Triangle Area (int)");
-        System.out.println("    A: " + tri_are_int + " cm^2");
+        System.out.println("Triangle Area (int): "+tri_are_int+" cm^2");
         return tri_are_int;
     }
     //Método estático con parámetros de tipo flotantes
@@ -57,8 +53,7 @@ public class Triangle
     public static float Perimeter_flo(float base_1, float base_2, float base_3)
     {
         float result = base_1+base_2+base_3;
-        System.out.println("Triangle Perimeter (float)");
-        System.out.println("    P: " + result + " cm");
+        System.out.println("Triangle Perimeter (float): "+result+" cm");
         return result;
     }
     //Método estático con parámetros de tipo flotantes
@@ -68,8 +63,7 @@ public class Triangle
         float tri_are_flo;
 
         tri_are_flo=(base_1*height)/2;
-        System.out.println("Triangle Area (float)");
-        System.out.println("    A: " + tri_are_flo + " cm^2");
+        System.out.println("Triangle Area (float): "+tri_are_flo+" cm^2");
         return tri_are_flo;
     }
 }

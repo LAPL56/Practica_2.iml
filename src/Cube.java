@@ -34,7 +34,7 @@ public class Cube
     {
         float volume;
         volume = (base*height*width);
-        System.out.println("Square Volume: "+volume+" cm^3");
+        System.out.println("Cube Volume: "+volume+" cm^3");
     }
     //Método que devuelve el perimetro, usando la variable 'square'
     public void Perimeter_sqr()
