@@ -27,8 +27,8 @@ public class MainArtek {
         //Constructor Triangle
         Triangle triangle = new Triangle(2.5f,3.5f,1.5f,5.1f);
         //Métodos no estáticos
-        triangle.Area();
         triangle.Perimeter_int();
+        triangle.Area();
         //Métodas estáticos
         int per_int_tri = Triangle.Perimeter_int(1,2,3);
         int are_int_tri = Triangle.Area_int(1,2);
