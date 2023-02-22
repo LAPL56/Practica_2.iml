@@ -1,6 +1,6 @@
 public class MainArtek {
     public static void main(String[] args)
-    {
+    { 
     //Clase Cuadrado
         //Constructor Square
         Square square = new Square(2.5f,7.13f);
